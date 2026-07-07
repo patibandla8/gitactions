@@ -5,20 +5,20 @@ name: CI
 # Controls when the workflow will run
 on:
   # Uncomment if you want to trigger on push
-  # push:
-  #   branches:
-  #     - main
+   push:
+     branches:
+       - main
 
   # Uncomment if you want to trigger on pull requests
   # pull_request:
   #   branches:
   #     - main
   # Allows you to run the workflow manually
-  workflow_dispatch:
+  #workflow_dispatch:
 
   # Runs every 5 minutes
-  schedule:
-    - cron: '*/10 * * * *'
+  #schedule:
+    #- cron: '*/10 * * * *'
 
   # Allows you to run the workflow manually
   #workflow_dispatch:
