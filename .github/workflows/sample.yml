@@ -19,7 +19,7 @@ on:
     - cron: '*/5 * * * *'
 
   # Allows you to run the workflow manually
-  workflow_dispatch:
+  #workflow_dispatch:
 
 # A workflow run is made up of one or more jobs
 jobs:
